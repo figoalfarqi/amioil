@@ -5,16 +5,14 @@ export default function Footer() {
         {/* Location */}
         <div>
           <h3 className="font-bold text-xl mb-4">Our Location</h3>
-
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1000.9939227149229!2d117.5882706!3d3.2931992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32138af0f40c2d9b%3A0x2719988c6261db8e!2sJl.%20Yos%20Sudarso%20No.2%2C%20Lingkas%20Ujung%2C%20Kec.%20Tarakan%20Tim.%2C%20Kota%20Tarakan%2C%20Kalimantan%20Utara!5e1!3m2!1sid!2sid!4v1773545681542!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d995.8074257060372!2d117.5882706!3d3.2931992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32138af0f40c2d9b%3A0x2719988c6261db8e!2sJl.%20Yos%20Sudarso%20No.2%2C%20Lingkas%20Ujung%2C%20Kec.%20Tarakan%20Tim.%2C%20Kota%20Tarakan%2C%20Kalimantan%20Utara!5e0!3m2!1sid!2sid!4v1773546276896!5m2!1sid!2sid"
             className="w-full h-60 rounded-lg"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-
           <p className="mt-4 text-gray-300">
             Tarakan <br />
             Jl. Yos Sudarso No.02, Tarakan, Kalimantan Utara
