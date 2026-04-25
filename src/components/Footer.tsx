@@ -36,10 +36,11 @@ export default function Footer() {
           <h3 className="font-bold text-xl mb-4">Contact</h3>
 
           <p>Email</p>
-          <p className="text-yellow-400">contact@amioil.id</p>
-          <p className="text-yellow-400">sales@amioil.id</p>
+          <p className="text-yellow-400">contact@virtualgate.id</p>
+          <p className="text-yellow-400">sales@virtualgate.id</p>
         </div>
       </div>
     </footer>
   );
 }
+
