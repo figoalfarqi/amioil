@@ -1,23 +1,12 @@
-import Header from "@/components/Header";
-import Carousel from "@/components/Carousel";
-import About from "@/components/About";
-import VisionMission from "@/components/VisionMission";
-import Operations from "@/components/Operations";
-import CompanySections from "@/components/CompanySections";
-import Values from "@/components/Values";
-import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+import { HomeContainer } from "@/containers";
 
-export default function Home() {
-  return (
-    <div className="bg-white text-gray-800">
-      <Header />
-      <Carousel />
-      <About />
-      <VisionMission />
-      <Operations />
-      <CompanySections/>
-      <Values />
-      <Footer />
-    </div>
-  );
+export const metadata: Metadata = {
+  title: "Global Supply. Indonesian Opportunity. | PT Ami Mandiri Sejahtera",
+  description:
+    "PT Ami Mandiri Sejahtera is an Indonesian energy and commodity trading company developing supply connections between qualified international producers and Indonesian customers.",
+};
+
+export default function HomePage() {
+  return <HomeContainer />;
 }
